@@ -6,7 +6,7 @@ from openai import get_response
 bot = commands.Bot(
     token=twitch_oauth,  # Use 'token' instead of 'irc_token'
     client_id=twitch_clientid,
-    nick='asdawd',
+    nick='',
     prefix='!',
     initial_channels=[channel_id]
 )
